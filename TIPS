@@ -1,0 +1,29 @@
+#TIP1: Python dictionary - Single QUOTES and JSON output uses DOUBLE QUOTES.
+#TIP2: since java script cannot understand python dictionaries we have to convert it to a JSON using JSONIFY method. Also we have to return a DICTIONARY not lIST.
+#TIP3: JSON always "" - DOUBLE QUOTES - never single quotes.
+
+#TIP4: Flask-RESTful - limits the flask capabilities but forces us to stick to the REST principles
+
+#TIP5:Resources are SUBJECT like Student and comes from flask-restful librabry
+
+#TIP6:
+200 - Success OK
+201 - Created
+202 - Accepted - Accpeted not created
+
+400 - bad Request
+404 - Not found
+
+#TIP7: The .get method can be used with a dictionary instead of ['KEY'] so that we can assign a default value
+
+#TIP8: using "cls" is to say that we are using the current class - instead of hardcoding the CLASS name.
+
+#TIP9: Resources are external representation on an entity and the model is internal representation on an entity. Model is a
+helper. Resources can use the MODEL.
+
+
+#TIP10: Make sure that the path of the "connection = sqlite3.connect('data.db')" isnt changed by PYCHARM based on movement of files within the project.
+
+https://pythonhosted.org/Flask-JWT/
+
+#TIP11: SQLALCHEMY - creates mapping between database and objects
